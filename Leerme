@@ -1,0 +1,25 @@
+2. Configurar la Contraseña 
+
+- Abra el proyecto en IntelliJ.
+
+- Navegue al archivo: src/main/java/informatica/db/ConexionDB.java.
+
+- Busque la línea (aprox. 16): private static final String PASSWORD = "...";
+
+- Reemplace el valor actual por su contraseña de root para MySQL.  Si su usuario root no tiene contraseña, déjelo como "".
+
+3. Ejecutar la Aplicación
+Este proyecto se ejecuta con Maven (ya que no usa module-info.java).
+
+- Abra el panel de Maven en IntelliJ (en la barra lateral derecha).
+
+- Expanda Plugins -> javafx.
+
+- Haga doble clic en el goal javafx:run.
+
+4. Iniciar Sesión
+La aplicación se lanzará. Use las siguientes credenciales (cargadas desde la base de datos):
+
+- Usuario: alumno33
+
+- Contraseña: 1234
